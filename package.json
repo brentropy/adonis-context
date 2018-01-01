@@ -1,0 +1,24 @@
+{
+  "name": "adonis-context",
+  "version": "0.0.0",
+  "description": "Context provider for the Adonis framework based on async_hooks",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "node-exceptions": "^2.0.2"
+  },
+  "devDependencies": {
+    "@adonisjs/fold": "^4.0.5",
+    "japa": "^1.0.5",
+    "japa-cli": "^1.0.1",
+    "nyc": "^11.4.1",
+    "standard": "^10.0.3"
+  },
+  "scripts": {
+    "test": "standard && nyc japa"
+  },
+  "author": "Brent Burgoyne",
+  "license": "MIT"
+}
